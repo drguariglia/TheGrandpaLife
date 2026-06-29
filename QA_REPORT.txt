@@ -1,59 +1,65 @@
-TheGrandpaLife_v7 — Website Quality Assurance Report
+TheGrandpaLife_v7 — Podcast Chapter 1 QA Report
 
-Total checks: 41
+Result: 47 of 47 checks passed
 
-PASS — index.html exists
-PASS — thank-you.html exists
-PASS — index.html: no duplicate IDs
-PASS — index.html: every image has alt text
-PASS — index.html: every button has explicit type
-PASS — index.html: all local assets exist
-PASS — thank-you.html: no duplicate IDs
-PASS — thank-you.html: every image has alt text
-PASS — thank-you.html: every button has explicit type
-PASS — thank-you.html: all local assets exist
-PASS — Every homepage internal link has a valid target
-PASS — All navigation links are present and correct
-PASS — Every CTA link is present and points correctly
-PASS — External scorecard link uses HTTPS
-PASS — External scorecard link opens safely
-PASS — Mobile menu has accessibility wiring
-PASS — Mobile menu script opens and closes navigation
-PASS — Contact form exists
-PASS — Contact form submits with POST
-PASS — Contact form is Netlify-enabled
-PASS — Contact form redirects to thank-you page
-PASS — Contact form has spam honeypot
-PASS — Contact form has hidden form-name
-PASS — Contact form requires name, email, and message
-PASS — Contact email field uses email validation
-PASS — Send Message button submits form
-PASS — Thank-you page returns to homepage
-PASS — No résumé/PDF links are exposed
-PASS — No PDF files are packaged
-PASS — All packaged image assets are used
-PASS — New supplied headshot replaces the prior standalone portrait
-PASS — New headshot uses a cache-busting filename to prevent the old image from persisting
-PASS — Prior portrait asset is not packaged
-PASS — All designated human images have face-focus classes
-PASS — Every face-focus class has a desktop CSS position rule
-PASS — Every face-focus class has tablet/mobile positioning rules where needed
-PASS — Human-image crops were visually reviewed for centered faces with meaningful context
-PASS — JavaScript syntax is valid
-PASS — CSS braces are balanced
-PASS — Netlify publish directory is configured
-PASS — Netlify security headers are configured
+Podcast update:
+- First podcast area: overall discussion of The Educational Alchemist (coming soon)
+- Second podcast area: Chapter 1 — Meliorism: The Alchemist Begins
+- Embedded HTML5 audio player and direct MP3 download
+- Audio duration: approximately 11 minutes 12 seconds
 
-Result: 41/41 checks passed.
-
-
-CORRECTION VERIFIED:
-- Replaced About-section portrait with tony-riverside-v7-final.jpg.
-- Removed the prior headshot asset.
-- Rebuilt ZIP from scratch with one website root only.
-- Verified root index.html references the riverside image.
-UPDATE — BOOK COVER
-- Replaced the previous website book cover with the newly supplied Educational Alchemist cover.
-- Added a unique filename to prevent cached display of the prior image.
-- Confirmed the book section references the new image and the asset is included at the ZIP root structure.
-Update: Removed the non-interactive philosophy pills and replaced them with a subtle editorial divider to avoid false button affordance. Version remains TheGrandpaLife_v7.
+[PASS] Local img reference: assets/crest.gif — /mnt/data/TheGrandpaLife_v7_podcast_work/assets/crest.gif
+[PASS] Local img reference: assets/hero-testimony.jpg — /mnt/data/TheGrandpaLife_v7_podcast_work/assets/hero-testimony.jpg
+[PASS] Local img reference: assets/tony-riverside-v7-final.jpg — /mnt/data/TheGrandpaLife_v7_podcast_work/assets/tony-riverside-v7-final.jpg
+[PASS] Local img reference: assets/book-cover-v7-final.png — /mnt/data/TheGrandpaLife_v7_podcast_work/assets/book-cover-v7-final.png
+[PASS] Local img reference: assets/speaking.jpg — /mnt/data/TheGrandpaLife_v7_podcast_work/assets/speaking.jpg
+[PASS] Local img reference: assets/media.jpg — /mnt/data/TheGrandpaLife_v7_podcast_work/assets/media.jpg
+[PASS] Local img reference: assets/governor.jpg — /mnt/data/TheGrandpaLife_v7_podcast_work/assets/governor.jpg
+[PASS] Local img reference: assets/civic.jpg — /mnt/data/TheGrandpaLife_v7_podcast_work/assets/civic.jpg
+[PASS] Local img reference: assets/civic-swearing-in.jpg — /mnt/data/TheGrandpaLife_v7_podcast_work/assets/civic-swearing-in.jpg
+[PASS] Local img reference: assets/family.jpg — /mnt/data/TheGrandpaLife_v7_podcast_work/assets/family.jpg
+[PASS] Local img reference: assets/mets.jpg — /mnt/data/TheGrandpaLife_v7_podcast_work/assets/mets.jpg
+[PASS] Local img reference: assets/crest.gif — /mnt/data/TheGrandpaLife_v7_podcast_work/assets/crest.gif
+[PASS] Local img reference: assets/crest.gif — /mnt/data/TheGrandpaLife_v7_podcast_work/assets/crest.gif
+[PASS] Local script reference: script.js — /mnt/data/TheGrandpaLife_v7_podcast_work/script.js
+[PASS] Local link reference: styles.css — /mnt/data/TheGrandpaLife_v7_podcast_work/styles.css
+[PASS] Local source reference: assets/audio/podcast-chapter-01.mp3 — /mnt/data/TheGrandpaLife_v7_podcast_work/assets/audio/podcast-chapter-01.mp3
+[PASS] Local a reference: assets/audio/podcast-chapter-01.mp3 — /mnt/data/TheGrandpaLife_v7_podcast_work/assets/audio/podcast-chapter-01.mp3
+[PASS] Internal anchor: #top
+[PASS] Internal anchor: #about
+[PASS] Internal anchor: #book
+[PASS] Internal anchor: #podcast
+[PASS] Internal anchor: #journey
+[PASS] Internal anchor: #service
+[PASS] Internal anchor: #project
+[PASS] Internal anchor: #contact
+[PASS] Internal anchor: #about
+[PASS] Internal anchor: #book
+[PASS] Internal anchor: #contact
+[PASS] Internal anchor: #contact
+[PASS] Internal anchor: #top
+[PASS] Chapter 1 audio player present
+[PASS] Audio source is MPEG
+[PASS] Audio file present — /mnt/data/TheGrandpaLife_v7_podcast_work/assets/audio/podcast-chapter-01.mp3
+[PASS] Audio file has substantial size — 16119388 bytes
+[PASS] Audio metadata readable — {
+    "format": {
+        "duration": "671.608163",
+        "tags": {
+            "title": "Chapter 1",
+            "artist": "Anthony Guariglia, PhD"
+        }
+    }
+}
+[PASS] Two podcast areas present — 2 found
+[PASS] First area is overall book discussion
+[PASS] Second area is Chapter 1
+[PASS] No résumé links
+[PASS] CSS braces balanced — 235 opening / 235 closing
+[PASS] JavaScript syntax valid
+[PASS] Netlify contact form configured
+[PASS] Required root file: index.html
+[PASS] Required root file: styles.css
+[PASS] Required root file: script.js
+[PASS] Required root file: netlify.toml
+[PASS] Required root file: thank-you.html

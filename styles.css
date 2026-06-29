@@ -41,3 +41,21 @@
   .human-photos img.focus-family{object-position:50% 12%}
   .human-photos img.focus-mets{object-position:50% 13%}
 }
+
+
+/* Podcast episode library */
+.podcast-status-live span{background:#f1c76a;box-shadow:0 0 0 5px #f1c76a20,0 0 18px #f1c76a66}
+.podcast-episodes{display:grid;grid-template-columns:1fr;gap:16px;margin:0 0 30px}
+.podcast-episode{display:grid;grid-template-columns:58px 1fr;gap:18px;padding:22px;background:linear-gradient(135deg,#ffffff10,#ffffff08);border:1px solid #ffffff20;position:relative;overflow:hidden}
+.podcast-episode:before{content:"";position:absolute;inset:0 auto 0 0;width:4px;background:var(--gold)}
+.episode-number{font:700 2.15rem/1 "Cormorant Garamond",serif;color:#f1c76a;border-right:1px solid #ffffff20;padding-right:14px;text-align:center}
+.episode-content small{display:block;color:var(--gold);text-transform:uppercase;letter-spacing:.11em;font-weight:800;font-size:.68rem;margin-bottom:5px}
+.episode-content h3{font-size:1.55rem;margin:.2em 0 .45em}
+.episode-content p{font-size:.92rem;color:#d8c6bb;margin:.25em 0 1em}
+.episode-content .episode-note{margin:12px 0 0;padding-top:12px;border-top:1px solid #ffffff1e;color:#e7d8cc;font-style:italic}
+.podcast-available{background:linear-gradient(135deg,#d79a2b18,#ffffff08)}
+.podcast-player{width:100%;height:48px;margin:8px 0 10px;accent-color:var(--gold)}
+.episode-actions{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:.78rem;color:#cdbeb4}
+.episode-actions a{color:#f1c76a;font-weight:800;text-decoration:none;border-bottom:1px solid #f1c76a66}
+.episode-actions a:hover{color:#fff;border-bottom-color:#fff}
+@media(max-width:560px){.podcast-episode{grid-template-columns:44px 1fr;padding:18px 15px;gap:12px}.episode-number{font-size:1.7rem;padding-right:10px}.episode-content h3{font-size:1.35rem}.episode-actions{align-items:flex-start;flex-direction:column;gap:6px}}
