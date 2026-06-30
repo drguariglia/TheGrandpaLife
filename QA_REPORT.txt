@@ -1,30 +1,33 @@
-TheGrandpaLife_v7 — Podcast Chapter 1 QA Report
+TheGrandpaLife_v7 — Podcast Introduction QA Report
 
-Result: 47 of 47 checks passed
+Result: 56 of 56 checks passed
 
 Podcast update:
-- First podcast area: overall discussion of The Educational Alchemist (coming soon)
+- First podcast area: The Educational Alchemist podcast introduction and overall discussion of the book
 - Second podcast area: Chapter 1 — Meliorism: The Alchemist Begins
-- Embedded HTML5 audio player and direct MP3 download
-- Audio duration: approximately 11 minutes 12 seconds
+- Both areas include embedded HTML5 audio players and direct MP3 downloads
+- Introduction duration: approximately 6 minutes 20 seconds
+- Chapter 1 duration: approximately 11 minutes 12 seconds
 
-[PASS] Local img reference: assets/crest.gif — /mnt/data/TheGrandpaLife_v7_podcast_work/assets/crest.gif
-[PASS] Local img reference: assets/hero-testimony.jpg — /mnt/data/TheGrandpaLife_v7_podcast_work/assets/hero-testimony.jpg
-[PASS] Local img reference: assets/tony-riverside-v7-final.jpg — /mnt/data/TheGrandpaLife_v7_podcast_work/assets/tony-riverside-v7-final.jpg
-[PASS] Local img reference: assets/book-cover-v7-final.png — /mnt/data/TheGrandpaLife_v7_podcast_work/assets/book-cover-v7-final.png
-[PASS] Local img reference: assets/speaking.jpg — /mnt/data/TheGrandpaLife_v7_podcast_work/assets/speaking.jpg
-[PASS] Local img reference: assets/media.jpg — /mnt/data/TheGrandpaLife_v7_podcast_work/assets/media.jpg
-[PASS] Local img reference: assets/governor.jpg — /mnt/data/TheGrandpaLife_v7_podcast_work/assets/governor.jpg
-[PASS] Local img reference: assets/civic.jpg — /mnt/data/TheGrandpaLife_v7_podcast_work/assets/civic.jpg
-[PASS] Local img reference: assets/civic-swearing-in.jpg — /mnt/data/TheGrandpaLife_v7_podcast_work/assets/civic-swearing-in.jpg
-[PASS] Local img reference: assets/family.jpg — /mnt/data/TheGrandpaLife_v7_podcast_work/assets/family.jpg
-[PASS] Local img reference: assets/mets.jpg — /mnt/data/TheGrandpaLife_v7_podcast_work/assets/mets.jpg
-[PASS] Local img reference: assets/crest.gif — /mnt/data/TheGrandpaLife_v7_podcast_work/assets/crest.gif
-[PASS] Local img reference: assets/crest.gif — /mnt/data/TheGrandpaLife_v7_podcast_work/assets/crest.gif
-[PASS] Local script reference: script.js — /mnt/data/TheGrandpaLife_v7_podcast_work/script.js
-[PASS] Local link reference: styles.css — /mnt/data/TheGrandpaLife_v7_podcast_work/styles.css
-[PASS] Local source reference: assets/audio/podcast-chapter-01.mp3 — /mnt/data/TheGrandpaLife_v7_podcast_work/assets/audio/podcast-chapter-01.mp3
-[PASS] Local a reference: assets/audio/podcast-chapter-01.mp3 — /mnt/data/TheGrandpaLife_v7_podcast_work/assets/audio/podcast-chapter-01.mp3
+[PASS] Local link href: styles.css — /mnt/data/TheGrandpaLife_v7_podcast_intro/styles.css
+[PASS] Local img src: assets/crest.gif — /mnt/data/TheGrandpaLife_v7_podcast_intro/assets/crest.gif
+[PASS] Local img src: assets/hero-testimony.jpg — /mnt/data/TheGrandpaLife_v7_podcast_intro/assets/hero-testimony.jpg
+[PASS] Local img src: assets/tony-riverside-v7-final.jpg — /mnt/data/TheGrandpaLife_v7_podcast_intro/assets/tony-riverside-v7-final.jpg
+[PASS] Local img src: assets/book-cover-v7-final.png — /mnt/data/TheGrandpaLife_v7_podcast_intro/assets/book-cover-v7-final.png
+[PASS] Local source src: assets/audio/podcast-introduction.mp3 — /mnt/data/TheGrandpaLife_v7_podcast_intro/assets/audio/podcast-introduction.mp3
+[PASS] Local a href: assets/audio/podcast-introduction.mp3 — /mnt/data/TheGrandpaLife_v7_podcast_intro/assets/audio/podcast-introduction.mp3
+[PASS] Local source src: assets/audio/podcast-chapter-01.mp3 — /mnt/data/TheGrandpaLife_v7_podcast_intro/assets/audio/podcast-chapter-01.mp3
+[PASS] Local a href: assets/audio/podcast-chapter-01.mp3 — /mnt/data/TheGrandpaLife_v7_podcast_intro/assets/audio/podcast-chapter-01.mp3
+[PASS] Local img src: assets/speaking.jpg — /mnt/data/TheGrandpaLife_v7_podcast_intro/assets/speaking.jpg
+[PASS] Local img src: assets/media.jpg — /mnt/data/TheGrandpaLife_v7_podcast_intro/assets/media.jpg
+[PASS] Local img src: assets/governor.jpg — /mnt/data/TheGrandpaLife_v7_podcast_intro/assets/governor.jpg
+[PASS] Local img src: assets/civic.jpg — /mnt/data/TheGrandpaLife_v7_podcast_intro/assets/civic.jpg
+[PASS] Local img src: assets/civic-swearing-in.jpg — /mnt/data/TheGrandpaLife_v7_podcast_intro/assets/civic-swearing-in.jpg
+[PASS] Local img src: assets/family.jpg — /mnt/data/TheGrandpaLife_v7_podcast_intro/assets/family.jpg
+[PASS] Local img src: assets/mets.jpg — /mnt/data/TheGrandpaLife_v7_podcast_intro/assets/mets.jpg
+[PASS] Local img src: assets/crest.gif — /mnt/data/TheGrandpaLife_v7_podcast_intro/assets/crest.gif
+[PASS] Local img src: assets/crest.gif — /mnt/data/TheGrandpaLife_v7_podcast_intro/assets/crest.gif
+[PASS] Local script src: script.js — /mnt/data/TheGrandpaLife_v7_podcast_intro/script.js
 [PASS] Internal anchor: #top
 [PASS] Internal anchor: #about
 [PASS] Internal anchor: #book
@@ -38,22 +41,29 @@ Podcast update:
 [PASS] Internal anchor: #contact
 [PASS] Internal anchor: #contact
 [PASS] Internal anchor: #top
-[PASS] Chapter 1 audio player present
-[PASS] Audio source is MPEG
-[PASS] Audio file present — /mnt/data/TheGrandpaLife_v7_podcast_work/assets/audio/podcast-chapter-01.mp3
-[PASS] Audio file has substantial size — 16119388 bytes
-[PASS] Audio metadata readable — {
+[PASS] Podcast introduction player present
+[PASS] Chapter 1 player present
+[PASS] Introduction appears before Chapter 1
+[PASS] First podcast is overall book discussion
+[PASS] Introduction status is Listen now
+[PASS] Second podcast is Chapter 1
+[PASS] Podcast status updated
+[PASS] Introduction audio exists — /mnt/data/TheGrandpaLife_v7_podcast_intro/assets/audio/podcast-introduction.mp3
+[PASS] Introduction audio substantial size — 9128394
+[PASS] Introduction audio copied unchanged — a963d5dc26f362f9cbaa7274344bcc1dbb85bff987880f434aac48cc6d91043d
+[PASS] Introduction audio metadata readable — {
     "format": {
-        "duration": "671.608163",
-        "tags": {
-            "title": "Chapter 1",
-            "artist": "Anthony Guariglia, PhD"
-        }
+        "duration": "380.316735"
     }
 }
-[PASS] Two podcast areas present — 2 found
-[PASS] First area is overall book discussion
-[PASS] Second area is Chapter 1
+[PASS] Chapter 1 audio exists — /mnt/data/TheGrandpaLife_v7_podcast_intro/assets/audio/podcast-chapter-01.mp3
+[PASS] Chapter 1 audio substantial size — 16119388
+[PASS] Chapter 1 audio copied unchanged — fb513adc7f72f94800fd9951976e6a2a449f4b087b85be440eb5fe2394f2b300
+[PASS] Chapter 1 audio metadata readable — {
+    "format": {
+        "duration": "671.608163"
+    }
+}
 [PASS] No résumé links
 [PASS] CSS braces balanced — 235 opening / 235 closing
 [PASS] JavaScript syntax valid
